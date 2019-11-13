@@ -1,4 +1,4 @@
-package com.loserico.common.validation.utils;
+package com.loserico.validation.utils;
 
 import java.util.Objects;
 

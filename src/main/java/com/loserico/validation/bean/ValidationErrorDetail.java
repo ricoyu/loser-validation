@@ -1,4 +1,4 @@
-package com.loserico.common.validation.bean;
+package com.loserico.validation.bean;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

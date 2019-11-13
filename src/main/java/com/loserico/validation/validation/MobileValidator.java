@@ -1,6 +1,6 @@
-package com.loserico.common.validation.validation;
+package com.loserico.validation.validation;
 
-import com.loserico.common.validation.validation.annotation.Mobile;
+import com.loserico.validation.validation.annotation.Mobile;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;

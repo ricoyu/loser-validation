@@ -1,29 +1,27 @@
-package com.loserico.common.validation.bean;
+package com.loserico.validation.bean;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.io.Serializable;
+import java.util.List;
 
 /**
- * 错误描述类 
+ * 封装最终输出的错误消息
  * <p>
  * Copyright: Copyright (c) 2019-10-14 13:45
  * <p>
  * Company: Sexy Uncle Inc.
  * <p>
- 
+ *
  * @author Rico Yu  ricoyu520@gmail.com
  * @version 1.0
  */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class ErrorDetail implements Serializable {
+public class ErrorMessage {
 
-	private String errorMessage;
-	private String rejectedValue;
-	private String propertyPath;
+	private List<String[]> errors;
 
 }

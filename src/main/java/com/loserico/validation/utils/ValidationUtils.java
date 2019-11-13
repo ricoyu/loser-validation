@@ -1,8 +1,8 @@
-package com.loserico.common.validation.utils;
+package com.loserico.validation.utils;
 
-import com.loserico.common.validation.bean.ErrorMessage;
-import com.loserico.common.validation.exception.AbstractPropertyExistsException;
-import com.loserico.common.validation.i18n.LocaleContextHolder;
+import com.loserico.validation.bean.ErrorMessage;
+import com.loserico.validation.exception.AbstractPropertyExistsException;
+import com.loserico.validation.i18n.LocaleContextHolder;
 import org.springframework.context.MessageSource;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-import static com.loserico.common.validation.utils.Arrays.asArray;
+import static com.loserico.validation.utils.Arrays.asArray;
 import static java.util.stream.Collectors.toList;
 
 /**

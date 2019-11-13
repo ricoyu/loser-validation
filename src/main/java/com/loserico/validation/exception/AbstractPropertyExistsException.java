@@ -1,4 +1,4 @@
-package com.loserico.common.validation.exception;
+package com.loserico.validation.exception;
 
 public abstract class AbstractPropertyExistsException extends RuntimeException {
 

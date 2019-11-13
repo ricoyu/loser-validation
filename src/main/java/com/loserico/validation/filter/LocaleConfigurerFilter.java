@@ -1,6 +1,6 @@
-package com.loserico.common.validation.filter;
+package com.loserico.validation.filter;
 
-import com.loserico.common.validation.i18n.LocaleContextHolder;
+import com.loserico.validation.i18n.LocaleContextHolder;
 import org.springframework.context.MessageSource;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.WebApplicationContextUtils;

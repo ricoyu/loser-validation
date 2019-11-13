@@ -1,6 +1,6 @@
-package com.loserico.common.validation.validation;
+package com.loserico.validation.validation;
 
-import com.loserico.common.validation.validation.annotation.AllowedValues;
+import com.loserico.validation.validation.annotation.AllowedValues;
 
 import javax.validation.ConstraintDeclarationException;
 import javax.validation.ConstraintValidator;

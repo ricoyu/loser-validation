@@ -1,4 +1,4 @@
-package com.loserico.common.validation.i18n;
+package com.loserico.validation.i18n;
 
 import org.springframework.context.MessageSource;
 import org.springframework.context.i18n.LocaleContext;
